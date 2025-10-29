@@ -1,0 +1,52 @@
+{
+  "pharmacy_summary": {
+    "name": "Eli Lilly and Company",
+    "score": 55,
+    "anomaly_level": "Medium",
+    "type": "Pharmacy",
+    "num_of_products": 3,
+    "reversal_rate_percent": 0,
+    "refills_scripts": false,
+    "aberrant_quantities": false,
+    "num_of_plans": 2.0
+  },
+  "google_map_url": null,
+  "validation_checks": {
+    "web_search": {
+      "status": "Found",
+      "result": "https://www.lilly.com/"
+    },
+    "geocode": {},
+    "street_view": {
+      "status": "Not Checked",
+      "result": null
+    },
+    "address_match": {
+      "matched": false,
+      "score": 0.0,
+      "matched_address": null
+    },
+    "website_analysis": {
+      "status": "Partially Anomalous",
+      "result": "Suspicious activity detected"
+    },
+    "contact_info": {
+      "phones": [],
+      "emails": [],
+      "addresses": []
+    },
+    "street_view_inference": {
+      "status": "Not Evaluated",
+      "result": "Unclear / Unknown"
+    }
+  },
+  "website_analysis_raw": {
+    "pharmacy_links": [],
+    "pbm_links": []
+  },
+  "detailed_summary": "Website analysis: Suspicious activity detected. Found phones: 0, emails: 0, addresses: 0.",
+  "pharmacy_main_url": "https://www.lilly.com/",
+  "pbm_main_url": null,
+  "risk_score": 0.45,
+  "confidence_score": 0.55
+}
